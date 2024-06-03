@@ -1,0 +1,1325 @@
+{
+  "dilemmes": {
+    "Medhylemme": [
+      {
+        "id": 1,
+        "question": "Vous préférez avoir des bras de serpent ou des jambes de cafard ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "insectes",
+        "imageTitle2": "serpent",
+        "idImage": [
+          {
+            "imageNbr1": ["https://source.unsplash.com/random/?insectes"],
+
+            "imageNbr2": ["https://source.unsplash.com/random/?serpent"]
+          }
+        ],
+        "choix": ["Bras de serpent", "Jambes de cafard"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Si j'avais des bras de serpent, je pourrais enfin réussir à ouvrir ces bocaux de cornichons."
+            ],
+            "reponses2": [
+              "Avec des jambes de cafard, je pourrais enfin danser le cha-cha-cha à l'envers !"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Vous préférez manger un hamburger au sang de vampire ou une pizza aux araignées ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "choix": ["Hamburger au sang de vampire", "Pizza aux araignées"],
+        "imageTitle1": "hamburger",
+        "imageTitle2": "pizza",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?hamburger"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?pizza"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Si je mange un hamburger au sang de vampire, est-ce que je deviens un demi-vampire ?"
+            ],
+            "reponses2": [
+              "Une pizza aux araignées ? Eh bien, je suis déjà habitué à manger de la nourriture qui court."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Vous préférez avoir une tête de citrouille ou un nez de brocoli ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "choix": ["Tête de citrouille", "Nez de brocoli"],
+        "imageTitle1": "Halloween",
+        "imageTitle2": "brocoli",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?Halloween"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?brocoli"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Avec une tête de citrouille, je serais le roi de Halloween !"
+            ],
+            "reponses2": [
+              "Un nez de brocoli ? Je serais le légume le plus drôle du marché !"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Vous préférez marcher à quatre pattes pour toujours ou nager comme un poisson ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?poisson"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?nemo"]
+          }
+        ],
+        "choix": ["Marcher à quatre pattes", "Nager comme un poisson"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Marcher à quatre pattes ? Je pourrais enfin me faufiler dans les endroits les plus étroits !"
+            ],
+            "reponses2": [
+              "Nager comme un poisson ? Peut-être que je trouverai enfin Nemo !"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Vous préférez être avec Kim k, où avoir 30 000 euros ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?kardashian"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?monnaie"]
+          }
+        ],
+        "choix": ["Kim Kardashian", "30 000 euros"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Il faut bien aimer le plastique dans la vie !"
+            ],
+            "reponses2": [
+              "Comment ça, elle te met pas le barreau Kim K ?!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Vous préférez être avec Kim k, où avoir 30 000 euros ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?kardashian"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?monnaie"]
+          }
+        ],
+        "choix": ["Kim Kardashian", "30 000 euros"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Il faut bien aimer le plastique dans la vie !"
+            ],
+            "reponses2": [
+              "Comment ça, elle te met pas le barreau Kim K ?!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Vous préférez manger de la mayo et du coca ou du coca ketchup ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?Mayonnaise"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?ketchup"]
+          }
+        ],
+        "choix": ["Mayonnaise", "Ketchup"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Ça va le sang Tia un don !"
+            ],
+            "reponses2": [
+              "Nheeee qu'est-ce que tu me dis là ?!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Vous préférez Quand je pose des questions où non ?!",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?question"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?silence"]
+          }
+        ],
+        "choix": ["Oui", "Non"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Je pose les bonnes questions !"
+            ],
+            "reponses2": [
+              "Je continuerais à poser des questions ! Cheee"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Est-ce qu'on aura la certif oui ou non ?",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?diplome"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?chomage"]
+          }
+        ],
+        "choix": ["Diplome", "Chomage"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Moi je pense la question elle est vite répondue"
+            ],
+            "reponses2": [
+              "Eh va y, go rejoindre APEX !"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Préféreriez-vous...",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?sexe"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?célèbre"]
+          }
+        ],
+        "choix": ["être un acteur de films pour adultes très connu mais personne ne vous respecte", "être une star mondiale respectée mais secrètement un tueur en série"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Vous devenez une célébrité dans l'industrie, mais les gens vous jugent constamment."
+            ],
+            "reponses2": [
+              "Vous êtes adulé par tous, mais vous vivez dans la peur d'être découvert."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Préféreriez-vous...",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?sexe"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?célèbre"]
+          }
+        ],
+        "choix": ["regarder vos parents faire l'amour tous les jours pour le reste de votre vie", "participer une fois pour mettre fin à tout cela"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Chaque jour devient un cauchemar que vous ne pouvez pas échapper."
+            ],
+            "reponses2": [
+              "Un seul moment traumatisant, mais la paix pour toujours."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Préféreriez-vous...",
+        "Titre": "Les dilemmes de Medhy",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "poisson",
+        "imageTitle2": "nemo",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?wanted"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?clown"]
+          }
+        ],
+        "choix": ["être enfermé dans une pièce avec votre pire ennemi pour une semaine", "être enfermé dans une pièce avec dix clowns effrayants pour une nuit"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Les disputes sont inévitables, mais au moins vous connaissez votre ennemi."
+            ],
+            "reponses2": [
+              "Les rires sinistres résonnent dans la pièce, mais c'est juste une nuit."
+            ]
+          }
+        ]
+      }
+    ],
+    "AnimauxFantastiques": [
+      {
+        "id": 1,
+        "question": "Préférerais-tu avoir un dragon de compagnie ou un licorne ?",
+        "Titre": "Les AnimauxFantastiques",
+        "sousTitre": "Medhylemme",
+        "choix": ["Dragon de compagnie", "Licorne"],
+        "imageTitle1": "dragon",
+        "imageTitle2": "unicorn",
+        "idImage": [
+          {
+            "imageNbr1": ["https://source.unsplash.com/random/?dragon"],
+            "imageNbr2": ["https://source.unsplash.com/random/?unicorn"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Un dragon de compagnie serait incroyable pour voler dans les cieux !"
+            ],
+            "reponses2": [
+              "Une licorne serait si majestueuse et magique !"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Préférerais-tu parler aux animaux ou devenir invisible ?",
+        "Titre": "Les AnimauxFantastiques",
+        "sousTitre": "Medhylemme",
+        "choix": ["Parler aux animaux", "Devenir invisible"],
+        "imageTitle1": "talking-animals",
+        "imageTitle2": "invisibility",
+        "idImage": [
+          {
+            "imageNbr1": ["https://source.unsplash.com/random/?talking-animals"],
+            "imageNbr2": ["https://source.unsplash.com/random/?invisibility"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Parler aux animaux me permettrait de comprendre leurs secrets !"
+            ],
+            "reponses2": [
+              "Devenir invisible ? Je pourrais jouer les meilleurs tours aux gens !"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Préféreriez-vous...",
+        "Titre": "Les AnimauxFantastiques",
+        "sousTitre": "Medhylemme",
+        "choix": ["avoir un phénix qui vous ressuscite à chaque mort mais à chaque fois avec une apparence différente", "avoir un basilic qui peut pétrifier vos ennemis mais qui vous effraie aussi"],
+        "imageTitle1": "talking-animals",
+        "imageTitle2": "invisibility",
+        "idImage": [
+          {
+            "imageNbr1": ["https://source.unsplash.com/random/?phénix"],
+            "imageNbr2": ["https://source.unsplash.com/random/?Anaconda"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Vous vivez éternellement, mais votre apparence change constamment."
+            ],
+            "reponses2": [
+              "La protection est assurée, mais vous vivez dans la peur de votre propre animal."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Préféreriez-vous...",
+        "Titre": "Les AnimauxFantastiques",
+        "sousTitre": "Medhylemme",
+        "choix": ["parler aux animaux mais seulement ceux mythologiques", "communiquer avec les arbres mais ils parlent très lentement"],
+        "imageTitle1": "talking-animals",
+        "imageTitle2": "invisibility",
+        "idImage": [
+          {
+            "imageNbr1": ["https://source.unsplash.com/random/?préhistoire"],
+            "imageNbr2": ["https://source.unsplash.com/random/?arbre"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Des conversations passionnantes avec des créatures fantastiques, mais rien avec les animaux ordinaires."
+            ],
+            "reponses2": [
+              "Les arbres offrent des sagesses infinies, mais les dialogues prennent des heures."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Préféreriez-vous...",
+        "Titre": "Les AnimauxFantastiques",
+        "sousTitre": "Medhylemme",
+        "choix": ["avoir une armée de petites fées pour vous aider dans vos tâches ménagères", "avoir un seul géant qui fait tout pour vous mais à son rythme"],
+        "imageTitle1": "talking-animals",
+        "imageTitle2": "invisibility",
+        "idImage": [
+          {
+            "imageNbr1": ["https://source.unsplash.com/random/?fée"],
+            "imageNbr2": ["https://source.unsplash.com/random/?troll"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Votre maison brille de mille feux, mais attention aux caprices des fées."
+            ],
+            "reponses2": [
+              "Les corvées sont faites, mais seulement quand le géant en a envie."
+            ]
+          }
+        ]
+      }
+    ],
+      "SuperHéros": [
+        {
+          "id": 1,
+          "question": "Préférerais-tu voler comme Superman ou avoir la force de Hulk ?",
+          "Titre": "Les SuperHéros",
+          "sousTitre": "Medhylemme",
+          "choix": ["Voler comme Superman", "Force de Hulk"],
+          "imageTitle1": "superman",
+          "imageTitle2": "hulk",
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?superman"],
+              "imageNbr2": ["https://source.unsplash.com/random/?hulk"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Volant comme Superman, je pourrais explorer le monde à ma guise !"
+              ],
+              "reponses2": [
+                "Avoir la force de Hulk me permettrait de tout soulever sans effort !"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Préférerais-tu avoir des pouvoirs de glace comme Elsa ou de feu comme un dragon ?",
+          "Titre": "Les SuperHéros",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "ice",
+          "imageTitle2": "fire",
+          "choix": [
+            "Pouvoirs de glace comme Elsa",
+            "Pouvoirs de feu comme un dragon"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?ice"],
+              "imageNbr2": ["https://source.unsplash.com/random/?fire"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Les pouvoirs de glace comme Elsa seraient parfaits pour créer des châteaux magiques !"
+              ],
+              "reponses2": [
+                "Les pouvoirs de feu comme un dragon me donneraient une puissance incroyable !"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Préféreriez-vous...",
+          "Titre": "Les SuperHéros",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "ice",
+          "imageTitle2": "fire",
+          "choix": [
+            "être invisible mais éternuer toutes les dix minutes",
+            "voler mais éternellement à un mètre du sol"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?invisible"],
+              "imageNbr2": ["https://source.unsplash.com/random/?voler"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Vous espionnez les conversations secrètes, mais l'invisibilité interrompue par des éternuements vous trahit."
+              ],
+              "reponses2": [
+                "Vous planez légèrement au-dessus du sol, impressionnant sans vraiment voler."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Préféreriez-vous...",
+          "Titre": "Les SuperHéros",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "ice",
+          "imageTitle2": "fire",
+          "choix": [
+            "avoir la super-intelligence de Tony Stark mais oublier constamment où vous avez mis vos affaires",
+            "être immortel mais constamment suivi par un ennemi juré"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?génie"],
+              "imageNbr2": ["https://source.unsplash.com/random/?invincible"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Vos inventions changent le monde, mais vous passez la moitié de votre temps à chercher vos clés."
+              ],
+              "reponses2": [
+                "La vie éternelle est vôtre, mais l'ombre de votre ennemi vous hante perpétuellement."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Préféreriez-vous...",
+          "Titre": "Les SuperHéros",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "ice",
+          "imageTitle2": "fire",
+          "choix": [
+            "avoir la cape de Superman mais ne jamais savoir comment la mettre correctement",
+            "avoir le bouclier de Captain America mais qu'il soit magnétique et attire tout métal autour de vous"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?superman"],
+              "imageNbr2": ["https://source.unsplash.com/random/?captain"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Votre cape ajoute du style, mais vous luttez constamment avec les nœuds."
+              ],
+              "reponses2": [
+                "Votre bouclier vous protège, mais il attire tous les objets métalliques à portée."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Préféreriez-vous...",
+          "Titre": "Les SuperHéros",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "ice",
+          "imageTitle2": "fire",
+          "choix": [
+            "avoir la capacité de lire dans les pensées mais seulement des animaux",
+            "communiquer avec les machines mais elles vous répondent toujours par des sarcasmes"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?pensée"],
+              "imageNbr2": ["https://source.unsplash.com/random/?machine"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Vous comprenez enfin votre chat, mais ses pensées sont envahies de demandes de nourriture."
+              ],
+              "reponses2": [
+                "Les machines obéissent, mais leurs répliques sarcastiques rendent chaque interaction piquante."
+              ]
+            }
+          ]
+        }
+      ],
+  
+    "Horreur": [
+      {
+        "id": 1,
+        "question": "Préférez-vous passer une nuit dans un manoir hanté réputé pour ses activités paranormales ou dans une prison abandonnée avec une réputation sinistre ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "choix": ["Manoir hanté", "Prison abandonnée"],
+        "imageTitle1": "manoir",
+        "imageTitle2": "prison",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?manoir"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?prison"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Le manoir hanté pourrait révéler des secrets fascinants sur le monde surnaturel."
+            ],
+            "reponses2": [
+              "La prison abandonnée pourrait cacher des horreurs indicibles et des esprits tourmentés."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Seriez-vous prêt à sacrifier votre meilleur ami pour sauver votre famille d'une situation périlleuse ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "oui",
+        "imageTitle2": "no",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?oui"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?no"]
+          }
+        ],
+        "choix": ["Oui", "Non"],
+        "idResponse": [
+          {
+            "reponses1": [
+              "La loyauté envers la famille prime sur toutes les autres relations."
+            ],
+            "reponses2": [
+              "Aucune amitié ne vaut le prix de la vie d'un être cher."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Choisissez-vous de vivre éternellement avec d'incessantes hallucinations terrifiantes ou de mourir paisiblement dans un sommeil sans rêves ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "hallucinations",
+        "imageTitle2": "dead",
+        "choix": ["Hallucinations terrifiantes", "Mourir sans rêves"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?hallucinations"],
+
+            "imageNbr1": ["https://source.unsplash.com/random/?dead"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "La vie éternelle vaut toutes les souffrances mentales."
+            ],
+            "reponses2": [
+              "La paix de la mort est préférable à une existence tourmentée."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Préférez-vous être condamné à errer pour l'éternité en tant que fantôme tourmenté ou être réincarné dans un corps de monstre sans conscience ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "ghost",
+        "imageTitle2": "monster",
+        "choix": ["Fantôme tourmenté", "Réincarnation en monstre"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?ghost"],
+            "imageNbr1": ["https://source.unsplash.com/random/?monster"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Le tourment éternel vaut mieux que la perte totale d'identité."
+            ],
+            "reponses2": [
+              "La monstruosité physique est préférable à la damnation de l'âme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Accepteriez-vous de passer une journée enfermé dans une pièce avec une créature monstrueuse si cela garantissait la fin de la faim dans le monde ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "yes",
+        "imageTitle2": "no",
+        "choix": ["Oui", "Non"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?yes"],
+            "imageNbr1": ["https://source.unsplash.com/random/?no"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Le sacrifice personnel pour le bien de l'humanité est noble."
+            ],
+            "reponses2": [
+              "Aucun gain ne vaut le risque de sa propre vie."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Seriez-vous prêt à renoncer à votre humanité pour obtenir un pouvoir absolu, même si cela signifie perdre toute connexion avec votre compassion et votre moralité ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "choix": ["Oui", "Non"],
+        "imageTitle1": "yes",
+        "imageTitle2": "no",
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?yes"],
+            "imageNbr1": ["https://source.unsplash.com/random/?no"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Le pouvoir absolu justifie tous les moyens, peu importe le coût personnel."
+            ],
+            "reponses2": [
+              "La perte de l'humanité rend le pouvoir insignifiant."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Préféreriez-vous être maudit pour toute votre vie mais avoir la possibilité de faire une bonne action qui sauverait des vies, ou vivre une vie sans conséquences mais sans possibilité d'aider les autres ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "maudit",
+        "imageTitle2": "scruple",
+        "choix": ["Vie maudite avec possibilité d'aider", "Vie sans conséquences sans possibilité d'aider"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?maudit"],
+            "imageNbr1": ["https://source.unsplash.com/random/?scruple"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "La capacité à sauver des vies justifie la souffrance personnelle."
+            ],
+            "reponses2": [
+              "La paix de l'esprit est plus importante que toute action altruiste."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Choisissez-vous de découvrir la vérité sur une malédiction antique, même si cela met en danger ceux que vous aimez, ou préférez-vous vivre dans l'ignorance et risquer que le mal se propage ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "truth",
+        "imageTitle2": "ignorance",
+        "choix": ["Découvrir la vérité", "Rester dans l'ignorance"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?truth"],
+            "imageNbr1": ["https://source.unsplash.com/random/?ignorance"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "La connaissance est la clé pour briser le cycle de la malédiction."
+            ],
+            "reponses2": [
+              "Ignorer le mal est la seule façon de le contenir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Accepteriez-vous de subir des expériences médicales extrêmes si cela garantissait une avancée majeure dans la science, même si cela mettait votre propre santé en danger ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "yes",
+        "imageTitle2": "no",
+        "choix": ["Oui", "Non"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?yes"],
+            "imageNbr1": ["https://source.unsplash.com/random/?no"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Le progrès scientifique justifie tous les risques personnels."
+            ],
+            "reponses2": [
+              "La santé individuelle est plus importante que toute avancée scientifique."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Seriez-vous prêt à vendre votre âme au diable pour obtenir ce que vous désirez le plus au monde, même si cela signifie une damnation éternelle ?",
+        "Titre": "Horreur",
+        "sousTitre": "Medhylemme",
+        "imageTitle1": "yes",
+        "imageTitle2": "no",
+        "choix": ["Oui", "Non"],
+        "idImage": [
+          {
+            "imageNbr2": ["https://source.unsplash.com/random/?yes"],
+            "imageNbr1": ["https://source.unsplash.com/random/?no"]
+          }
+        ],
+        "idResponse": [
+          {
+            "reponses1": [
+              "Le désir intense justifie le sacrifice ultime."
+            ],
+            "reponses2": [
+              "Aucun gain ne vaut le prix de l'âme éternelle."
+            ]
+          }
+        ]
+      }
+    ],
+      "Philosophique": [
+        {
+          "id": 1,
+          "question": "Préférez-vous être un génie malheureux ou un imbécile heureux ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "genius",
+          "imageTitle2": "happy",
+          "choix": ["Génie malheureux", "Imbécile heureux"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?genius"],
+              "imageNbr2": ["https://source.unsplash.com/random/?happy"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "La connaissance et la compréhension valent bien la souffrance émotionnelle."
+              ],
+              "reponses2": [
+                "Le bonheur simple et la satisfaction personnelle sont plus importants que l'intelligence."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Seriez-vous prêt à sacrifier votre propre bonheur pour le bien-être de la majorité ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "sacrifice",
+          "imageTitle2": "majority",
+          "choix": ["Oui", "Non"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?sacrifice"],
+              "imageNbr2": ["https://source.unsplash.com/random/?majority"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Le bien commun prime sur le bonheur individuel."
+              ],
+              "reponses2": [
+                "Le bonheur personnel est une priorité qui ne devrait pas être compromise."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Choisissez-vous la liberté sans sécurité ou la sécurité sans liberté ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "freedom",
+          "imageTitle2": "security",
+          "choix": ["Liberté sans sécurité", "Sécurité sans liberté"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?freedom"],
+              "imageNbr2": ["https://source.unsplash.com/random/?security"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "La liberté est un droit fondamental qui vaut tous les risques."
+              ],
+              "reponses2": [
+                "La sécurité garantit la stabilité et le bien-être de la société."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Préférez-vous avoir la certitude absolue de la vérité ou la capacité infinie de poser des questions ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "certainty",
+          "imageTitle2": "questions",
+          "choix": [
+            "Certitude absolue",
+            "Capacité infinie de poser des questions"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?certainty"],
+              "imageNbr2": ["https://source.unsplash.com/random/?questions"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "La certitude apporte la paix d'esprit et la stabilité."
+              ],
+              "reponses2": [
+                "La recherche continue de la vérité est essentielle pour la croissance personnelle et la découverte."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Accepteriez-vous de vivre éternellement si cela signifiait voir tous vos proches mourir ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "eternity",
+          "imageTitle2": "mortality",
+          "choix": ["Oui", "Non"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?eternity"],
+              "imageNbr2": ["https://source.unsplash.com/random/?mortality"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "L'immortalité offre la possibilité d'accomplir des choses inimaginables."
+              ],
+              "reponses2": [
+                "La mortalité rend chaque moment précieux et significatif."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Seriez-vous prêt à sacrifier votre propre vie pour sauver celle d'un inconnu ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "sacrifice",
+          "imageTitle2": "stranger",
+          "choix": ["Oui", "Non"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?sacrifice"],
+              "imageNbr2": ["https://source.unsplash.com/random/?stranger"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Le sacrifice personnel pour le bien des autres est le summum de l'altruisme."
+              ],
+              "reponses2": [
+                "La préservation de sa propre vie est une priorité naturelle."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Préféreriez-vous être aimé mais incompris ou compris mais détesté ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "love",
+          "imageTitle2": "misunderstood",
+          "choix": ["Aimé mais incompris", "Compris mais détesté"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?love"],
+              "imageNbr2": ["https://source.unsplash.com/random/?misunderstood"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "L'amour et l'affection des autres sont essentiels pour le bonheur."
+              ],
+              "reponses2": [
+                "La compréhension de soi-même et des autres est plus importante que l'approbation sociale."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "question": "Choisissez-vous de vivre une vie pleine de souffrances mais riche en expériences ou une vie confortable mais sans grande signification ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "suffering",
+          "imageTitle2": "comfort",
+          "choix": [
+            "Vie pleine de souffrances mais riche en expériences",
+            "Vie confortable mais sans grande signification"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?suffering"],
+              "imageNbr2": ["https://source.unsplash.com/random/?comfort"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Les défis et les luttes donnent un sens et une profondeur à la vie."
+              ],
+              "reponses2": [
+                "Le confort matériel et la stabilité offrent une tranquillité d'esprit précieuse."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "question": "Accepteriez-vous de perdre toutes vos souvenirs pour un nouveau départ sans regrets ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "memories",
+          "imageTitle2": "newbeginning",
+          "choix": ["Oui", "Non"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?memories"],
+              "imageNbr2": ["https://source.unsplash.com/random/?newbeginning"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Une nouvelle chance sans bagages émotionnels peut être libératrice."
+              ],
+              "reponses2": [
+                "Les souvenirs façonnent notre identité et notre compréhension du monde."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "question": "Seriez-vous prêt à abandonner tous vos biens matériels pour une vie de simplicité et de spiritualité ?",
+          "Titre": "Philosophie",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "simplicity",
+          "imageTitle2": "materialism",
+          "choix": ["Oui", "Non"],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?simplicity"],
+              "imageNbr2": ["https://source.unsplash.com/random/?materialism"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "La véritable richesse réside dans la paix intérieure et la connexion spirituelle."
+              ],
+              "reponses2": [
+                "Les biens matériels offrent confort et sécurité dans ce monde matérialiste."
+              ]
+            }
+          ]
+        }
+      ],
+      
+      "Cinéma": [
+        {
+          "id": 1,
+          "question": "Préférez-vous avoir la carrière cinématographique de Leonardo DiCaprio, reconnue pour ses performances dramatiques et son engagement pour des causes sociales, ou celle de Tom Hanks, célèbre pour ses rôles polyvalents et son charisme universel ?",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Star",
+          "imageTitle2": "Celebrity",
+          "choix": [
+            "Carrière similaire à celle de Leonardo DiCaprio",
+            "Carrière similaire à celle de Tom Hanks"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?Star"],
+              "imageNbr2": ["https://source.unsplash.com/random/?Celebrity"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Les performances dramatiques et l'engagement social peuvent garantir une influence et une reconnaissance dans l'industrie cinématographique et au-delà."
+              ],
+              "reponses2": [
+                "La polyvalence des rôles et le charisme universel peuvent assurer une popularité durable et une adoration du public à travers différents genres de films."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Préférez-vous être reconnu pour votre talent brut et votre intensité, à l'image de Daniel Day-Lewis, ou pour votre charme et votre élégance classique, à l'instar de George Clooney ?",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Hollywood",
+          "imageTitle2": "Bollywood",
+          "choix": [
+            "Talent brut et intensité de Daniel Day-Lewis",
+            "Charme et élégance classique de George Clooney"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?Hollywood"],
+              "imageNbr2": ["https://source.unsplash.com/random/?Bollywood"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Le talent brut et l'intensité peuvent garantir des performances mémorables et une reconnaissance de pairs dans l'industrie cinématographique."
+              ],
+              "reponses2": [
+                "Le charme et l'élégance classique peuvent captiver le public et assurer une présence médiatique durable, tant sur le grand écran que dans la vie publique."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Préférez-vous avoir une carrière variée et éclectique comme celle de Johnny Depp, explorant une multitude de rôles excentriques et originaux, ou celle de Brad Pitt, marquée par des performances polyvalentes et un succès commercial ?",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Actress",
+          "imageTitle2": "Singer",
+          "choix": [
+            "Carrière similaire à celle de Johnny Depp",
+            "Carrière similaire à celle de Brad Pitt"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?Actress"],
+              "imageNbr2": ["https://source.unsplash.com/random/?Singer"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "L'exploration de rôles excentriques et originaux peut garantir une renommée pour l'originalité et la créativité dans l'industrie cinématographique."
+              ],
+              "reponses2": [
+                "Des performances polyvalentes et un succès commercial peuvent offrir une reconnaissance mondiale et une adoration du public à travers une variété de genres et de projets."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Préférez-vous être reconnu pour votre capacité à incarner des personnages complexes et torturés, comme Joaquin Phoenix, ou pour votre charisme magnétique et votre présence captivante, comme Denzel Washington ?",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Star",
+          "imageTitle2": "Actor",
+          "choix": [
+            "Capacité à incarner des personnages complexes et torturés de Joaquin Phoenix",
+            "Charisme magnétique et présence captivante de Denzel Washington"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?Star"],
+              "imageNbr2": ["https://source.unsplash.com/random/?Actor"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "L'incarnation de personnages complexes et torturés peut garantir une reconnaissance critique et une exploration profonde de la condition humaine à travers l'art dramatique."
+              ],
+              "reponses2": [
+                "Le charisme magnétique et la présence captivante peuvent assurer une popularité durable et une admiration universelle, faisant de l'celebrity9 une icône du grand écran."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Préférez-vous être connu pour votre travail de transformation physique et mental, tel Christian Bale, ou pour votre polyvalence et votre adaptation à une variété de rôles, tel Matt Damon ?",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Celebrity",
+          "imageTitle2": "Famous",
+          "choix": [
+            "Travail de transformation physique et mental de Christian Bale",
+            "Polyvalence et adaptation à une variété de rôles de Matt Damon"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?Celebrity"],
+              "imageNbr2": ["https://source.unsplash.com/random/?Famous"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Le travail de transformation physique et mental peut garantir des performances spectaculaires et une reconnaissance pour l'engagement total à un rôle."
+              ],
+              "reponses2": [
+                "La polyvalence et l'adaptation à une variété de rôles peuvent assurer une carrière durable et une reconnaissance de pairs pour la capacité à incarner divers personnages avec authenticité et crédibilité."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Préféreriez-vous...",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Celebrity",
+          "imageTitle2": "Famous",
+          "choix": [
+            "avoir un Oscar pour un rôle dont vous avez honte",
+            "être nominé plusieurs fois mais ne jamais gagner"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?oscar"],
+              "imageNbr2": ["https://source.unsplash.com/random/?tryagain"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Vous avez la gloire de l'Oscar, mais le rôle vous fait grincer des dents."
+              ],
+              "reponses2": [
+                "Vous êtes reconnu par vos pairs, mais la victoire vous échappe toujours."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Préféreriez-vous...",
+          "Titre": "Cinéma",
+          "sousTitre": "Medhylemme",
+          "imageTitle1": "Celebrity",
+          "imageTitle2": "Famous",
+          "choix": [
+            "avoir la chance de réaliser un film avec un budget illimité mais un scénario horrible",
+            "réaliser un chef-d'œuvre avec un budget ridiculement bas"
+          ],
+          "idImage": [
+            {
+              "imageNbr1": ["https://source.unsplash.com/random/?film"],
+              "imageNbr2": ["https://source.unsplash.com/random/?budget"]
+            }
+          ],
+          "idResponse": [
+            {
+              "reponses1": [
+                "Votre film a des effets spéciaux incroyables, mais l'histoire est risible."
+              ],
+              "reponses2": [
+                "Votre film est acclamé par la critique, mais vous devez compter chaque centime."
+              ]
+            }
+          ]
+        }
+      ]
+  }
+}

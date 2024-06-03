@@ -1,0 +1,203 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.hidden{
+    visibility: hidden;
+}
+
+.Nohidden{
+    visibility: visible;
+}
+
+.text-red,i{
+  color: red;
+}
+
+.btn:disabled {
+@apply bg-gray-500;
+}
+
+.fade {
+    transition: opacity 1s;
+  }
+  
+  .fade.out {
+    opacity: 0;
+  }
+
+  .bg-font-color::before {
+    content: "";
+    position: fixed;
+    background-image: url(https://source.unsplash.com/random/?nebuleuse);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+  }
+
+  /*effet de lampe torche */
+  /* .bg-font-color {
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://source.unsplash.com/random/?nebuleuse);
+    background-size: cover;
+    background-position: center;
+  } */
+  
+
+
+  .full-screen{
+    height: 130vh;
+  }
+
+
+  .render {
+    align-self: center;
+    @include transition(all 0.3s ease);
+    @include transform3d(rotateX(50deg) rotateZ(1deg));
+    font-family: 'Kreon', serif;
+    font-weight: 700;
+    font-size: 12em;
+    color: #f5f5f5;
+
+  }
+  
+  .render>button:hover{
+    -webkit-box-shadow: 0px 5px 100px -10px rgba(255, 255, 255, 0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+  }
+
+  .bg-color::before{
+    content: "";
+    background-image: url('fotor-ai-20240525211925.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0,75;
+  }
+
+  .bg-color::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+.bg-font-cinema::before{
+  content: "";
+  background-image: url('835577963282.jpg');
+  background-size: cover;
+  background-position: center;
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+
+.bg-font-philosophie::before{
+  content: "";
+  background-image: url('nature-morte-lampe-stylo-lanterne-livre.jpg');
+  background-size: cover;
+  background-position: center;
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+
+.bg-font-horreur::before{
+  content: "";
+  background-image: url('front-view-spooky-character-posing.jpg');
+  background-size: cover;
+  background-position: center;
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+
+.bg-font-hero::before{
+  content: "";
+  background-image: url('crazy-hero-happy-expression.jpg');
+  background-size: cover;
+  background-position: center;
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}
+
+.bg-font-Animals::before{
+  content: "";
+  background-image: url('futuristic-robot-shark.jpg');
+  background-size: cover;
+  background-position: center;
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}
+
+
+  @media screen and (min-width: 1024px) {
+    .nav {
+      display: flex;
+    }
+    .bg-font-color {
+      opacity: 0.5;
+    }
+    .bg-font-color:hover {
+      opacity: 0.8;
+    }
+
+    /*effet lampe torche */
+    /* .bg-font-color::before {
+      background: radial-gradient(800px at var(--mouse-x) var(--mouse-y), transparent 500px, rgba(0, 0, 0, 0.329)500px);
+    
+      
+    }
+    
+    .bg-font-color::after {
+      background: radial-gradient(600px at var(--mouse-x) var(--mouse-y), transparent 150px, rgba(0, 0, 0, 0.123)500px);
+     
+    } */
+  }
+
+  @media screen and (max-width: 1023px) {
+    .nav1 {
+      display: none;
+    }
+  }
+  
