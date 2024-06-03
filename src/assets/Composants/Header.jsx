@@ -10,11 +10,11 @@ function Header() {
     <>
       {/* En-tête */}
       <div className="w-full">
-        <header className="flex items-center bg-black dark:bg-dark relative z-10 justify-center">
-          <div className="container">
-            <div className="relative -mx-4 flex items-center justify-center mx-auto flex-wrap max-sm:mb-8">
+        <header className="flex items-center bg-black dark:bg-dark relative z-10 justify-center z-50">
+          <div className="container ">
+            <div className="relative -mx-4 flex items-center justify-center mx-auto flex-wrap max-sm:mb-8 ">
               {/* Logo */}
-              <div className="max-sm:w-2/6 w-1/5 px-4">
+              <div className="max-sm:w-2/6 w-1/5 px-4 ">
                 <a href="/#" className="block w-full py-5">
                   {/* Logo en mode clair */}
                   <img
@@ -34,8 +34,9 @@ function Header() {
                       open ? "nav" : "nav1"
                     } lg:block`}
                   >
+                    <div className="z-50">
                     {/* Liste des liens de navigation */}
-                    <ul className="nav lg:flex">
+                    <ul className="nav lg:flex z-100">
                       {/* Lien vers la page d'accueil */}
                       <NavLink to="/">
                         <ListItem NavLink1="/#">
@@ -59,6 +60,7 @@ function Header() {
                         <ListItem NavLink1="/Contact">Contact</ListItem>
                       </NavLink>
                     </ul>
+                  </div>
                   </nav>
                 </div>
                 {/* Liens de connexion */}
