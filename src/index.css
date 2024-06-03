@@ -80,7 +80,7 @@ transition: all 0.4s ease 0s;
 
   .bg-color::before{
     content: "";
-    background-image: url('fotor-ai-20240525211925.jpg');
+    background-image: url('Medhilemme\public\fotor-ai-20240525211925.jpg');
     background-size: cover;
     background-position: center;
     position: fixed;
