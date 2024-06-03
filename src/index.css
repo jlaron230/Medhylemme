@@ -104,7 +104,7 @@ transition: all 0.4s ease 0s;
 
 .bg-font-cinema::before{
   content: "";
-  background-image: url('835577963282.jpg');
+  background-image: url('/835577963282.jpg');
   background-size: cover;
   background-position: center;
   position:fixed;
@@ -118,7 +118,7 @@ transition: all 0.4s ease 0s;
 
 .bg-font-philosophie::before{
   content: "";
-  background-image: url('nature-morte-lampe-stylo-lanterne-livre.jpg');
+  background-image: url('/nature-morte-lampe-stylo-lanterne-livre.jpg');
   background-size: cover;
   background-position: center;
   position:fixed;
@@ -132,7 +132,7 @@ transition: all 0.4s ease 0s;
 
 .bg-font-horreur::before{
   content: "";
-  background-image: url('front-view-spooky-character-posing.jpg');
+  background-image: url('/front-view-spooky-character-posing.jpg');
   background-size: cover;
   background-position: center;
   position:fixed;
@@ -146,7 +146,7 @@ transition: all 0.4s ease 0s;
 
 .bg-font-hero::before{
   content: "";
-  background-image: url('crazy-hero-happy-expression.jpg');
+  background-image: url('/crazy-hero-happy-expression.jpg');
   background-size: cover;
   background-position: center;
   position:fixed;
@@ -159,7 +159,7 @@ transition: all 0.4s ease 0s;
 
 .bg-font-Animals::before{
   content: "";
-  background-image: url('futuristic-robot-shark.jpg');
+  background-image: url('/futuristic-robot-shark.jpg');
   background-size: cover;
   background-position: center;
   position:fixed;
