@@ -80,6 +80,7 @@ function Accueil() {
           <h2 className="sm:p-9 md:p-7 xl:p-9 mb-4 font-semibold text-white text-center text-4xl">Nos dilemmes</h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 flex justify-center m-8">
             {/* Affichage des cartes de catégories de dilemmes */}
+            <NavLink to="/Cinéma">
             <SingleCard
               image="https://source.unsplash.com/random/?dragon"
               CardTitle="Cinéma"
@@ -88,20 +89,23 @@ function Accueil() {
               CardDescription="Découvrez tout plein de dilemmes sur la culture cinématographique"
               Button="Voir plus"
             />
+            </NavLink>
+            <NavLink to="/SuperHeros">
             <SingleCard
               image="https://source.unsplash.com/random/?hero"
               CardTitle="Super Héros"
               CardDescription="Que choisirez-vous entre devenir Superman où Spider-man ?"
               Button="Voir plus"
-              btnHref="/SuperHeros"
             />
+            </NavLink>
+            <NavLink to="/Philosophie">
             <SingleCard
               image="https://source.unsplash.com/random/?sacrifice"
               CardTitle="Philosophie"
               CardDescription="Être ou ne pas être, telle est la question ?"
               Button="Voir plus"
-              btnHref="/Philosophie"
             />
+            </NavLink>
           </div>
         </div>
       </section>
