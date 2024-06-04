@@ -47,7 +47,7 @@ function App() {
               {/* Route pour la page de cinéma */}
               <Route path="/Cinéma" element={<Cinema />} />
               {/* Route pour la page de mentions légales */}
-              <Route path="/#Mentions-legales" element={<MentionsLegales />} />
+              <Route path="/Mentions-legales" element={<MentionsLegales />} />
               {/* Route pour la page de politique de confidentialité */}
               <Route path="/Politique-de-confidentialite" element={<PolitiqueDeConfidentialite />} />
             </Routes>
