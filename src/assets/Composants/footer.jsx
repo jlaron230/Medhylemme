@@ -26,11 +26,12 @@ const Footer = () => {
             </div>
 
             {/* Groupe de liens vers des ressources */}
+
             <LinkGroup header="Ressources">
-              <NavLink link="https://unsplash.com/fr" label="Unsplash" />
-              <NavLink link="https://fr.legacy.reactjs.org/" label="React" />
-              <NavLink link="https://grafikart.fr/" label="Graphikart" />
-              <NavLink link="https://www.fotor.com/fr/ai-image-generator/" label="Fotor" />
+              <NavLink to="https://unsplash.com/fr" label="Unsplash" />
+              <NavLink to="https://fr.legacy.reactjs.org/" label="React" />
+              <NavLink to="https://grafikart.fr/" label="Graphikart" />
+              <NavLink to="https://www.fotor.com/fr/ai-image-generator/" label="Fotor" />
             </LinkGroup>
 
             {/* Liens vers les différentes sections de l'application */}
@@ -72,12 +73,12 @@ const LinkGroup = ({ children, header }) => {
 };
 
 // Composant NavLink
-const NavLink = ({ link, label }) => {
+const NavLink = ({ to, label }) => {
   return (
     <li>
       {/* Lien */}
       <a
-        href={link}
+        href={to}
         className=" hover:text-violet-600 inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
       >
         {/* Texte du lien */}
