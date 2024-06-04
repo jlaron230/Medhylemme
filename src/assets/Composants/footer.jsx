@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 // Footer Component
 const Footer = () => {
   return (
@@ -28,26 +29,26 @@ const Footer = () => {
             {/* Groupe de liens vers des ressources */}
 
             <LinkGroup header="Ressources">
-              <NavLink to="https://unsplash.com/fr" label="Unsplash" />
-              <NavLink to="https://fr.legacy.reactjs.org/" label="React" />
-              <NavLink to="https://grafikart.fr/" label="Graphikart" />
-              <NavLink to="https://www.fotor.com/fr/ai-image-generator/" label="Fotor" />
+              <NavLink1 to="https://unsplash.com/fr" label="Unsplash" />
+              <NavLink1 to="https://fr.legacy.reactjs.org/" label="React" />
+              <NavLink1 to="https://grafikart.fr/" label="Graphikart" />
+              <NavLink1 to="https://www.fotor.com/fr/ai-image-generator/" label="Fotor" />
             </LinkGroup>
 
             {/* Liens vers les différentes sections de l'application */}
             <LinkGroup header="Medhylemme">
-              <NavLink to="/dilemme" label="Dilemme" />
-              <NavLink to="/Aléatoire" label="Aléatoire" />
-              <NavLink to="/Contact" label="Contact" />
+              <NavLink1 to="/dilemme" label="Dilemme" />
+              <NavLink1 to="/Aléatoire" label="Aléatoire" />
+              <NavLink1 to="/Contact" label="Contact" />
             </LinkGroup>
           </div>
         </div>
         {/* Liens légaux */}
         <div className="text-white flex justify-center my-16 list-none gap-3.5">
           {/* Lien vers les mentions légales */}
-          <p className="hover:text-violet-600"><NavLink to="/Mentions-legales" label="Mentions légales" /> </p>
+          <p className="hover:text-violet-600"><NavLink1 to="/Mentions-legales" label="Mentions légales" /> </p>
           {/* Lien vers la politique de confidentialité */}
-          <p className="hover:text-violet-600"><NavLink to="/Politique-de-confidentialite" label="Politique de confidentialité" /></p>
+          <p className="hover:text-violet-600"><NavLink1 to="/Politique-de-confidentialite" label="Politique de confidentialité" /></p>
         </div>
       </footer>
     </>
@@ -72,13 +73,13 @@ const LinkGroup = ({ children, header }) => {
   );
 };
 
-// Composant NavLink
-const NavLink = ({ to, label }) => {
+// Composant NavLink1
+const NavLink1 = ({ to, label }) => {
   return (
     <li>
       {/* Lien */}
       <a
-        href={to}
+        href={`${to}#`}
         className=" hover:text-violet-600 inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
       >
         {/* Texte du lien */}
