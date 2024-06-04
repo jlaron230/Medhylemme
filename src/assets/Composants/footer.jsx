@@ -37,18 +37,25 @@ const Footer = () => {
 
             {/* Liens vers les différentes sections de l'application */}
             <LinkGroup header="Medhylemme">
-              <NavLink1 to="\dilemme" label="Dilemme" />
-              <NavLink1 to="\Aléatoire" label="Aléatoire" />
-              <NavLink1 to="\Contact" label="Contact" />
+              <div className="flex flex-wrap flex-col">
+            <NavLink to={"/dilemme"} className="hover:text-violet-600 inline-block text-base leading-loose text-body-color
+             hover:text-primary dark:text-dark-6">Dilemme</NavLink>
+             <NavLink to={"/Aléatoire"} className="hover:text-violet-600 inline-block text-base leading-loose text-body-color
+             hover:text-primary dark:text-dark-6">Aléatoire</NavLink>
+            <NavLink to={"/Contact"} className="hover:text-violet-600 inline-block text-base leading-loose text-body-color
+             hover:text-primary dark:text-dark-6">Contact</NavLink>
+             </div>
             </LinkGroup>
           </div>
         </div>
         {/* Liens légaux */}
         <div className="text-white flex justify-center my-16 list-none gap-3.5">
           {/* Lien vers les mentions légales */}
-          <p className="hover:text-violet-600"><NavLink1 to="/Mentions-legales" label="Mentions légales" /> </p>
+          <p className="hover:text-violet-600"> <NavLink to={"/Mentions-legales"} className="hover:text-violet-600 inline-block text-base leading-loose text-body-color
+             hover:text-primary dark:text-dark-6">Mentions-legales</NavLink></p>
           {/* Lien vers la politique de confidentialité */}
-          <p className="hover:text-violet-600"><NavLink1 to="/Politique-de-confidentialite" label="Politique de confidentialité" /></p>
+          <p className="hover:text-violet-600"><NavLink to={"/Politique-de-confidentialite"} className="hover:text-violet-600 inline-block text-base leading-loose text-body-color
+             hover:text-primary dark:text-dark-6">Politique-de-confidentialite</NavLink></p>
         </div>
       </footer>
     </>
@@ -79,7 +86,7 @@ const NavLink1 = ({ to, label }) => {
     <li>
       {/* Lien */}
       <a
-        href={`${to}#`}
+        href={to}
         className=" hover:text-violet-600 inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
       >
         {/* Texte du lien */}
