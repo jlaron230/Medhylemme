@@ -55,7 +55,7 @@ function App() {
         </div>
       </Router>
       {/* Pied de page */}
-      <Footer level={4} />
+      <Footer />
     </>
   );
 }

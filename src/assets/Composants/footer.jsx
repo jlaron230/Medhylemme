@@ -1,5 +1,4 @@
 import React from "react";
-
 // Footer Component
 const Footer = () => {
   return (
@@ -36,18 +35,18 @@ const Footer = () => {
 
             {/* Liens vers les différentes sections de l'application */}
             <LinkGroup header="Medhylemme">
-              <NavLink link="dilemme" label="Dilemme" />
-              <NavLink link="Aléatoire" label="Aléatoire" />
-              <NavLink link="Contact" label="Contact" />
+              <NavLink to="/dilemme" label="Dilemme" />
+              <NavLink to="/Aléatoire" label="Aléatoire" />
+              <NavLink to="/Contact" label="Contact" />
             </LinkGroup>
           </div>
         </div>
         {/* Liens légaux */}
         <div className="text-white flex justify-center my-16 list-none gap-3.5">
           {/* Lien vers les mentions légales */}
-          <p className="hover:text-violet-600"><NavLink link="Mentions-legales" label="Mentions légales" /> </p>
+          <p className="hover:text-violet-600"><NavLink to="/Mentions-legales" label="Mentions légales" /> </p>
           {/* Lien vers la politique de confidentialité */}
-          <p className="hover:text-violet-600"><NavLink link="Politique-de-confidentialite" label="Politique de confidentialité" /></p>
+          <p className="hover:text-violet-600"><NavLink to="/Politique-de-confidentialite" label="Politique de confidentialité" /></p>
         </div>
       </footer>
     </>
