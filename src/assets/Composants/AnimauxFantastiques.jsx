@@ -21,6 +21,7 @@ function AnimauxFantastiques() {
       setData(dilemmeAll.dilemmes.AnimauxFantastiques);
       // Sélection aléatoire d'un dilemme au chargement
       setCount(randomNumberRange(1, data.length));
+      scrollToAncre()
       // Initialisation de l'animation
       handleAnimation();
     } catch (error) {
@@ -80,6 +81,22 @@ function AnimauxFantastiques() {
     handleReappearanceAnimation(); // Lancer l'animation de réapparition
   };
 
+  
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 350,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+  
+
   return (
     <>
     {/* Affichage du composant Categories */}
@@ -120,6 +137,7 @@ function AnimauxFantastiques() {
                     ResVisibility={ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   {/* Deuxième choix */}
                   <ServiceCard
@@ -130,6 +148,7 @@ function AnimauxFantastiques() {
                     ResVisibility={!ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   {/* Affichage des réponses */}
                   <Fade visible={hidden} duration={500} animateEnter={true} from={{ opacity: 0, x: 0, y: 15}}>
@@ -152,12 +171,13 @@ function AnimauxFantastiques() {
   );
 }
 
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({ onClick, title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
   // Fonction pour gérer le clic sur la carte de service
   const HandleClick = () => {
     // Inversion de la visibilité et de la réponse
     toggleVisibility();
     setResVisibility(!ResVisibility);
+    onClick();
   }
 
   // Rendu de la carte de service avec animation de survol

@@ -18,6 +18,7 @@ function Philosophique() {
       setData(dilemmeAll.dilemmes.Philosophique); // Initialisation des données de dilemmes
       setCount(randomNumberRange(1, data.length)); // Initialisation du numéro de dilemme
       handleAnimation(); // Initialisation de l'animation une fois au chargement du composant
+      scrollToAncre()
     } catch (error) {
       console.log(error);
     }
@@ -75,6 +76,20 @@ function Philosophique() {
     handleReappearanceAnimation(); // Lancer l'animation de réapparition
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 350,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
   // Rendu du composant Philosophique
 return (
   <>
@@ -113,6 +128,7 @@ return (
                   ResVisibility={ResVisibility}
                   setResVisibility={setResVisibility}
                   className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                  onClick={scrollToTop}
                 />
                 <ServiceCard
                   title={dilemme.choix[1]}
@@ -122,6 +138,7 @@ return (
                   ResVisibility={!ResVisibility}
                   setResVisibility={setResVisibility}
                   className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                  onClick={scrollToTop}
                 />
                 {/* Composant Fade pour les résultats */}
                 <Fade visible={hidden} duration={500} animateEnter={true} from={{ opacity: 0, x: 0, y: 15}}>
@@ -143,13 +160,14 @@ return (
 }
 
 // Ce composant représente une carte de service avec une image et un titre.
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({onClick, title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
 
   // Fonction pour gérer le clic sur la carte de service
   const HandleClick = () => {
     // Inverser la visibilité de la carte et des réponses associées
     toggleVisibility();
     setResVisibility(!ResVisibility);
+    onClick()
   }
 
   // Rendu de la carte de service

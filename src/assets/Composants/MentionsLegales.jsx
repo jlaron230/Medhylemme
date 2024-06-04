@@ -1,6 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
 
 function MentionsLegales() {
+
+  useEffect(() => {
+    scrollToAncre();
+  }, []);
+  
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
   return (
     <>
       {/* Conteneur principal */}

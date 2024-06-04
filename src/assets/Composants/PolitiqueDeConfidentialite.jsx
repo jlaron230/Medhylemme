@@ -1,7 +1,18 @@
 import React from "react";
-
+import { useEffect } from "react";
 // Définition du composant PolitiqueDeConfidentialite
 function PolitiqueDeConfidentialite () {
+
+    useEffect(() => {
+        scrollToAncre();
+      }, []);
+      
+      const scrollToAncre = () => {
+        window.scrollTo({
+          top: 20,
+          behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+        });
+      };
     // Rendu JSX du composant
     return (
         <>

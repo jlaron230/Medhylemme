@@ -27,6 +27,7 @@ function Dilemme() {
       setData(dilemmeAll.dilemmes.Medhylemme);
       setCount(randomNumberRange(1, data.length)); // Génération d'un nombre aléatoire pour count
       handleAnimation(); // Initialisation de l'animation une fois au chargement du composant
+      scrollToAncre();
     } catch (error) {
       console.log(error);
     }
@@ -80,6 +81,20 @@ function Dilemme() {
     handleReappearanceAnimation(); // Lancer l'animation de réapparition
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 350,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
   return (
     <>
       {/* Composant Categories */}
@@ -129,6 +144,7 @@ function Dilemme() {
                       ResVisibility={ResVisibility}
                       setResVisibility={setResVisibility}
                       className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                      onClick={scrollToTop}
                     />
                     
                     {/* Carte de service 2 */}
@@ -140,6 +156,7 @@ function Dilemme() {
                       ResVisibility={!ResVisibility}
                       setResVisibility={setResVisibility}
                       className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                      onClick={scrollToTop}
                     />
                     
                     {/* Affichage du résultat */}
@@ -163,11 +180,12 @@ function Dilemme() {
 }
 
 // Composant ServiceCard
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({onClick, title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
   // Gestion du clic sur la carte de service
   const HandleClick = () => {
     toggleVisibility(); // Toggle de la visibilité
-    setResVisibility(!ResVisibility); // Changement de la visibilité du résultat
+    setResVisibility(!ResVisibility); 
+    onClick()
   }
 
   return (

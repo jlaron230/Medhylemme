@@ -25,6 +25,13 @@ const initialValues = {
   message: "",    // Champ pour le message
 };
 
+const scrollToAncre = () => {
+  window.scrollTo({
+    top: 20,
+    behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+  });
+};
+
 // Configuration de Formik pour gérer le formulaire
 const formik = useFormik({
   initialValues, // Initialiser le formulaire avec les valeurs initiales
@@ -113,6 +120,7 @@ const formik = useFormik({
     handleAnimation(); // Initialiser l'animation une fois au chargement du composant
     reverseAnimation();
     handleAnimationY();
+    scrollToAncre()
       }catch(e){
           console.log(e);
       }

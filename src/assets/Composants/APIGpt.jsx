@@ -31,6 +31,7 @@ function APIGpt(props) {
   // Effet pour initialiser l'animation lors du chargement du composant
   useEffect(() => {
     handleAnimation();
+    scrollToAncre();
   }, [data]);
 
   // Fonction pour gérer le clic sur le bouton "Encore un"
@@ -67,6 +68,14 @@ function APIGpt(props) {
       translateX: ['100%', '50%'],
       duration: 1000,
       easing: 'easeInOutQuad'
+    });
+  };
+
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
     });
   };
 
@@ -207,7 +216,7 @@ function APIGpt(props) {
   );
 }
 
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
   // Gestion du clic sur la carte de service
   const HandleClick = () => {
     toggleVisibility(); // Inversion de la visibilité des réponses

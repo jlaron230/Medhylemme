@@ -24,6 +24,7 @@ function Cinema() {
       setData(dilemmeAll.dilemmes.Cinéma);
       // Générer un numéro de dilemme aléatoire
       setCount(randomNumberRange(1, data.length));
+      scrollToAncre()
       // Initialiser l'animation
       handleAnimation();
     } catch (error) {
@@ -85,12 +86,26 @@ function Cinema() {
     handleReappearanceAnimation();
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 350,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
   return (
     <>
       {/* Affichage des catégories */}
       <Categories />
       {/* Contenu du composant */}
-      <div className={`text-white bg-font-cinema ${hidden ? "full-screen full-Screen-Mobile" : ""}`}>
+      <div className={`text-white bg-font-cinema ${hidden ? "full-screen" : ""}`}>
         {/* Mapping des données pour afficher le dilemme actuel */}
         {data.filter((dilemme) => dilemme.id === count).map((dilemme) => (
           <div key={dilemme.id}>
@@ -124,6 +139,7 @@ function Cinema() {
                     ResVisibility={ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   <ServiceCard
                     title={dilemme.choix[1]}
@@ -133,6 +149,7 @@ function Cinema() {
                     ResVisibility={!ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   {/* Affichage de la réponse */}
                   <Fade visible={hidden} duration={500} animateEnter={true} from={{ opacity: 0, x: 0, y: 15}}>
@@ -153,11 +170,12 @@ function Cinema() {
   );
 }
 
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({ onClick, title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
 
 const HandleClick = () => {
   toggleVisibility();
   setResVisibility(!ResVisibility)
+  onClick()
 }
 
 return (

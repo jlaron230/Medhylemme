@@ -15,6 +15,7 @@ function SuperHeros() {
     try {
       setData(dilemmeAll.dilemmes.SuperHéros);
       setCount(randomNumberRange(1, data.length));
+      scrollToAncre()
       handleAnimation(); // Initialiser l'animation une fois au chargement du composant
     } catch (error) {
       console.log(error);
@@ -66,6 +67,20 @@ function SuperHeros() {
     handleReappearanceAnimation(); // Lancer l'animation de réapparition
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 350,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
   return (
     <>
       <Categories />
@@ -98,6 +113,7 @@ function SuperHeros() {
                     ResVisibility={ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   <ServiceCard
                     title={dilemme.choix[1]}
@@ -107,6 +123,7 @@ function SuperHeros() {
                     ResVisibility={!ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   <Fade visible={hidden} duration={500} animateEnter={true} from={{ opacity: 0, x: 0, y: 15 }}>
                     <div className={`flex m-2 flex-wrap justify-center flex-col items-center basis-3/5 text-center ${!hidden ? "hidden" : "Nohidden"}`}>
@@ -126,10 +143,11 @@ function SuperHeros() {
   );
 }
 
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({onClick, title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
   const HandleClick = () => {
     toggleVisibility();
     setResVisibility(!ResVisibility)
+    onClick()
   }
 
   return (

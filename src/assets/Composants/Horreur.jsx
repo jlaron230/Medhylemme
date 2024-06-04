@@ -19,6 +19,7 @@ function Horreur() {
       setData(dilemmeAll.dilemmes.Horreur); // Mise à jour des données des dilemmes
       setCount(randomNumberRange(1, data.length)); // Sélection aléatoire d'un dilemme
       handleAnimation(); // Initialisation de l'animation une fois au chargement du composant
+      scrollToAncre()
     } catch (error) {
       console.log(error); // Gestion des erreurs
     }
@@ -75,10 +76,24 @@ function Horreur() {
     handleReappearanceAnimation(); // Lancement de l'animation de réapparition
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 350,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
+  const scrollToAncre = () => {
+    window.scrollTo({
+      top: 20,
+      behavior: 'smooth' // Optionnel: ajoute un défilement fluide
+    });
+  };
+
   return (
     <>
       <Categories /> {/* Affichage du composant Categories */}
-      <div className={`text-white bg-font-horreur ${hidden ? "full-screen" : "full-screen"}`}>
+      <div className={`text-white bg-font-horreur ${hidden ? "full-screen" : ""}`}>
         {/* Affichage des dilemmes filtrés */}
         {data.filter((dilemme) => dilemme.id === count).map((dilemme) => (
           <div key={dilemme.id}>
@@ -113,6 +128,7 @@ function Horreur() {
                     ResVisibility={ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   {/* Affichage de la deuxième carte de service */}
                   <ServiceCard
@@ -123,6 +139,7 @@ function Horreur() {
                     ResVisibility={!ResVisibility}
                     setResVisibility={setResVisibility}
                     className={`service-card fade-animation ${hidden ? "hidden" : "Nohidden"}`}
+                    onClick={scrollToTop}
                   />
                   {/* Affichage de la transition fade pour les réponses */}
                   <Fade visible={hidden} duration={500} animateEnter={true} from={{ opacity: 0, x: 0, y: 15}}>
@@ -145,11 +162,12 @@ function Horreur() {
   );
 }
 
-const ServiceCard = ({ title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
+const ServiceCard = ({onClick, title, hidden, toggleVisibility, setResVisibility, ResVisibility, image, HandleClick1}) => {
   // Fonction HandleClick appelée lorsqu'on clique sur la carte
   const HandleClick = () => {
     toggleVisibility(); // Inverse la visibilité de la carte
     setResVisibility(!ResVisibility); // Inverse la visibilité de la réponse
+    onClick()
   }
 
   return (
