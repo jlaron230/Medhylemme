@@ -37,9 +37,9 @@ const Footer = () => {
 
             {/* Liens vers les différentes sections de l'application */}
             <LinkGroup header="Medhylemme">
-              <NavLink1 to="/dilemme" label="Dilemme" />
-              <NavLink1 to="/Aléatoire" label="Aléatoire" />
-              <NavLink1 to="/Contact" label="Contact" />
+              <NavLink1 to="\dilemme" label="Dilemme" />
+              <NavLink1 to="\Aléatoire" label="Aléatoire" />
+              <NavLink1 to="\Contact" label="Contact" />
             </LinkGroup>
           </div>
         </div>

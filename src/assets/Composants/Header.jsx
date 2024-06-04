@@ -15,7 +15,7 @@ function Header() {
             <div className="relative -mx-4 flex items-center justify-center mx-auto flex-wrap max-sm:mb-8 ">
               {/* Logo */}
               <div className="max-sm:w-2/6 w-1/5 px-4 ">
-                <a href="/#" className="block w-full py-5">
+                <a href="/" className="block w-full py-5">
                   {/* Logo en mode clair */}
                   <img
                     src="Medhylemme-logo (5).png"
