@@ -29,27 +29,27 @@ function App() {
             {/* Routes pour les différentes pages */}
             <Routes>
               {/* Route pour la page de dilemme */}
-              <Route path="/dilemme#" element={<Dilemme />} />
+              <Route path="/dilemme" element={<Dilemme />} />
               {/* Route pour la page d'animaux fantastiques */}
-              <Route path="/AnimauxFantastiques#" element={<AnimauxFantastiques />} />
+              <Route path="/AnimauxFantastiques" element={<AnimauxFantastiques />} />
               {/* Route pour la page de contact */}
-              <Route path="/Contact#" element={<Contact />} /> 
+              <Route path="/Contact" element={<Contact />} /> 
               {/* Route par défaut pour la page d'accueil */}
               <Route path="/" element={<Accueil />} />
               {/* Route pour la page de génération de texte aléatoire */}
-              <Route path="/Aléatoire#" element={<APIGpt />} /> 
+              <Route path="/Aléatoire" element={<APIGpt />} /> 
               {/* Route pour la page de super héros */}
-              <Route path="/SuperHeros#" element={<SuperHeros />} />
+              <Route path="/SuperHeros" element={<SuperHeros />} />
               {/* Route pour la page d'horreur */}
-              <Route path="/Horreur#" element={<Horreur />} />
+              <Route path="/Horreur" element={<Horreur />} />
               {/* Route pour la page philosophique */}
-              <Route path="/Philosophie#" element={<Philosophique />} />
+              <Route path="/Philosophie" element={<Philosophique />} />
               {/* Route pour la page de cinéma */}
-              <Route path="/Cinéma#" element={<Cinema />} />
+              <Route path="/Cinéma" element={<Cinema />} />
               {/* Route pour la page de mentions légales */}
-              <Route path="/Mentions-legales#" element={<MentionsLegales />} />
+              <Route path="/#Mentions-legales" element={<MentionsLegales />} />
               {/* Route pour la page de politique de confidentialité */}
-              <Route path="/Politique-de-confidentialite#" element={<PolitiqueDeConfidentialite />} />
+              <Route path="/Politique-de-confidentialite" element={<PolitiqueDeConfidentialite />} />
             </Routes>
           </main>
         </div>
