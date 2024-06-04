@@ -90,7 +90,7 @@ function Cinema() {
       {/* Affichage des catégories */}
       <Categories />
       {/* Contenu du composant */}
-      <div className={`text-white bg-font-cinema ${hidden ? "full-screen" : ""}`}>
+      <div className={`text-white bg-font-cinema ${hidden ? "full-screen full-Screen-Mobile" : ""}`}>
         {/* Mapping des données pour afficher le dilemme actuel */}
         {data.filter((dilemme) => dilemme.id === count).map((dilemme) => (
           <div key={dilemme.id}>

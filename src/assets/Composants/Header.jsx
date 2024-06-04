@@ -14,7 +14,7 @@ function Header() {
           <div className="container ">
             <div className="relative -mx-4 flex items-center justify-center mx-auto flex-wrap max-sm:mb-8 ">
               {/* Logo */}
-              <div className="max-sm:w-2/6 w-1/5 px-4 ">
+              <div className="max-sm:w-3/6 w-1/5 px-4 ">
                 <a href="/" className="block w-full py-5">
                   {/* Logo en mode clair */}
                   <img
@@ -25,7 +25,7 @@ function Header() {
                 </a>
               </div>
               {/* Menu de navigation */}
-              <div className="flex items-center md:px-4 gap-x-5">
+              <div className="flex items-center md:px-4 max-sm:gap-2.5 md:gap-x-5">
                 <div>
                   {/* Menu de navigation */}
                   <nav
@@ -67,7 +67,7 @@ function Header() {
                 <div className="visible justify-end sm:flex lg:pr-0 md:gap-x-5">
                   <a
                     href="/#"
-                    className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white border-blue-600 ring-2 rounded-md"
+                    className="mr-4 px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white border-blue-600 ring-2 rounded-md"
                   >
                     Sign in
                   </a>
