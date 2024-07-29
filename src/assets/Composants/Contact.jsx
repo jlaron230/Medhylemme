@@ -7,9 +7,9 @@ import anime from 'animejs/lib/anime.es.js';
 
 // Schéma de validation
 const validationSchema = Yup.object({
-  name: Yup.string().required("Le nom est obligatoire"),
+  firstName: Yup.string().required("Le prénom est obligatoire"),
+  lastname: Yup.string().required("Le nom est obligatoire"),
   email: Yup.string().email("Email invalide").required("L'email est obligatoire"),
-  phone: Yup.string().matches(/^[0-9]+$/, "le téléphone ne doit contenir que des chiffres").required("Le téléphone est obligatoire").min(9, "le téléphone dois contenir au moins 10 chiffres"),
   message: Yup.string().required("Le message est obligatoire"),
 });
 
@@ -19,9 +19,9 @@ function Contact() {
 
 // Valeurs initiales du formulaire
 const initialValues = {
-  nom: "",        // Champ pour le nom
+  firstName: "",        // Champ pour le nom
+  lastname: "",        // Champ pour le nom
   email: "",      // Champ pour l'email
-  téléphone: "",  // Champ pour le téléphone
   message: "",    // Champ pour le message
 };
 

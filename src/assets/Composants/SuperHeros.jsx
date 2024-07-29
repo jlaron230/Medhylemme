@@ -3,6 +3,7 @@ import anime from 'animejs/lib/anime.es.js';
 import dilemmeAll from '../dilemmeAll.json';
 import { Fade } from "./Fade";
 import Categories from "./Categories";
+import ApiImage from "./ApiImage"; 
 
 function SuperHeros() {
   const [data, setData] = useState([]);
@@ -169,8 +170,8 @@ const ServiceCard = ({onClick, title, hidden, toggleVisibility, setResVisibility
 
 const ImageDisplay = ({ image , HandleClick1}) => (
   <div className="flex items-center mt-2.5 mb-5 justify-center render">
-    <button className="rounded-lg mb-6 w-full" onClick={HandleClick1} >
-      <img onClick={HandleClick1} className="max-h-72 object-cover rounded-lg w-full" src={image} alt="Image aléatoire" />
+    <button className="flex justify-center rounded-lg mb-6 w-full" onClick={HandleClick1} >
+    <ApiImage onClick={HandleClick1} className=" object-cover rounded-lg w-full" />
     </button>
   </div>
 );

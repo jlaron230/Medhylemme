@@ -4,6 +4,7 @@ import anime from 'animejs/lib/anime.es.js'; // Importation de l'animation
 import dilemmeAll from '../dilemmeAll.json'; // Importation des données JSON
 import { Fade } from "./Fade"; // Importation du composant Fade pour gérer les transitions
 import Categories from "./Categories"; // Importation du composant Categories pour les catégories
+import ApiImage from "./ApiImage"; 
 
 // Définition du composant AnimauxFantastiques
 function AnimauxFantastiques() {
@@ -206,8 +207,8 @@ const ServiceCard = ({ onClick, title, hidden, toggleVisibility, setResVisibilit
 const ImageDisplay = ({ image , HandleClick1}) => (
   <div className="flex items-center mt-2.5 mb-5 justify-center render">
     {/* Image avec gestion du clic */}
-    <button className="rounded-lg mb-6 w-full" onClick={HandleClick1} >
-      <img onClick={HandleClick1} className="max-h-72 object-cover rounded-lg w-full" src={image} alt="Image aléatoire" />
+    <button className="rounded-lg mb-6 w-full flex justify-center" onClick={HandleClick1} >
+    <ApiImage onClick={HandleClick1} className=" object-cover rounded-lg w-full" />
     </button>
   </div>
 );

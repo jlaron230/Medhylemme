@@ -3,6 +3,7 @@ import anime from 'animejs/lib/anime.es.js'; // Importation de la bibliothèque 
 import dilemmeAll from '../dilemmeAll.json'; // Importation des données dilemmeAll.json
 import { Fade } from "./Fade"; // Importation du composant Fade
 import Categories from "./Categories"; // Importation du composant Categories
+import ApiImage from "./ApiImage"; 
 
 function Dilemme() {
   // Déclaration des états
@@ -211,8 +212,8 @@ const ServiceCard = ({onClick, title, hidden, toggleVisibility, setResVisibility
 const ImageDisplay = ({ image , HandleClick1}) => (
   <div className="flex items-center mt-2.5 mb-5 justify-center render">
     {/* Bouton contenant l'image */}
-    <button className="rounded-lg mb-6 w-full" onClick={HandleClick1} >
-      <img onClick={HandleClick1} className="max-h-72 object-cover rounded-lg w-full" src={image} alt="Image aléatoire" /> {/* Image */}
+    <button className="flex justify-center rounded-lg mb-6 w-full" onClick={HandleClick1} >
+    <ApiImage onClick={HandleClick1} className=" object-cover rounded-lg w-full" />
     </button>
   </div>
 );

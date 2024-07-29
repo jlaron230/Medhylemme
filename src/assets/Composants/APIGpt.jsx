@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import anime from 'animejs/lib/anime.es.js'; // Import de la bibliothèque d'animation
 import dilemmeAll from '../dilemmeAll.json'; // Import du fichier JSON contenant les données
 import { Fade } from "./Fade"; // Import du composant de transition
+import ApiImage from "./ApiImage"; 
 
 function APIGpt(props) {
   // Initialisation des états avec useState
@@ -249,8 +250,8 @@ const ServiceCard = ({title, hidden, toggleVisibility, setResVisibility, ResVisi
 const ImageDisplay = ({ image , HandleClick1}) => (
   <div className="flex items-center mt-2.5 mb-5 justify-center render">
     {/* Image cliquable */}
-    <button className="rounded-lg mb-6 w-full m-2" onClick={HandleClick1} >
-      <img onClick={HandleClick1} className="max-h-48 object-cover rounded-lg w-full" src={image} alt="Image aléatoire" />
+    <button className="flex justify-center rounded-lg mb-6 w-full m-2" onClick={HandleClick1} >
+    <ApiImage onClick={HandleClick1} className=" object-cover rounded-lg w-full" />
     </button>
   </div>
 );

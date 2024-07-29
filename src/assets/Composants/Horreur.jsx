@@ -3,6 +3,7 @@ import anime from 'animejs/lib/anime.es.js'; // Importation de la bibliothèque 
 import dilemmeAll from '../dilemmeAll.json'; // Importation des données des dilemmes depuis un fichier JSON
 import { Fade } from "./Fade"; // Importation du composant Fade depuis un fichier local
 import Categories from "./Categories"; // Importation du composant Categories depuis un fichier local
+import ApiImage from "./ApiImage"; 
 
 // Définition du composant Horreur
 function Horreur() {
@@ -194,8 +195,8 @@ const ImageDisplay = ({ image , HandleClick1}) => (
   // Div pour afficher l'image de la carte
   <div className="flex items-center mt-2.5 mb-5 justify-center render">
     {/* Bouton contenant l'image de la carte */}
-    <button className="rounded-lg mb-6 w-full" onClick={HandleClick1} >
-      <img onClick={HandleClick1} className="max-h-72 object-cover rounded-lg w-full" src={image} alt="Image aléatoire" />
+    <button className="flex justify-center rounded-lg mb-6 w-full" onClick={HandleClick1} >
+    <ApiImage onClick={HandleClick1} className=" object-cover rounded-lg w-full" />
     </button>
   </div>
 );

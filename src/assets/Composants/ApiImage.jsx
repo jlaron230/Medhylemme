@@ -33,7 +33,7 @@ function ApiImage({categorie1}) {
         <div>
             {/* Affichage de l'image */}
             {data.length > 0 && (
-                <img className="max-h-48 object-contain rounded-lg" src={`data:image/jpeg;base64,${data}`} alt="Random" />
+                <img className="min-w-9 object-contain rounded-lg" src={`data:image/jpeg;base64,${data}`} alt="Random" />
             )}
         </div>
     );

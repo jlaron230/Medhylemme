@@ -3,6 +3,7 @@ import anime from 'animejs/lib/anime.es.js'; // Import de la bibliothèque d'ani
 import { NavLink } from "react-router-dom"; // Import de NavLink pour la navigation
 import dilemmeAll from '../dilemmeAll.json'; // Import des données de dilemmes depuis un fichier JSON local
 import APIGpt from "./APIGpt"; // Import du composant APIGpt
+import ApiImage from "./ApiImage"; 
 
 function Accueil() {
   // États pour stocker les données des dilemmes, les catégories, l'animation et les données API
@@ -82,7 +83,6 @@ function Accueil() {
             {/* Affichage des cartes de catégories de dilemmes */}
             <NavLink to="/Cinéma">
             <SingleCard
-              image="https://source.unsplash.com/random/?dragon"
               CardTitle="Cinéma"
               titleHref="/#"
               btnHref="/Cinéma"
@@ -92,7 +92,6 @@ function Accueil() {
             </NavLink>
             <NavLink to="/SuperHeros">
             <SingleCard
-              image="https://source.unsplash.com/random/?hero"
               CardTitle="Super Héros"
               CardDescription="Que choisirez-vous entre devenir Superman où Spider-man ?"
               Button="Voir plus"
@@ -100,7 +99,6 @@ function Accueil() {
             </NavLink>
             <NavLink to="/Philosophie">
             <SingleCard
-              image="https://source.unsplash.com/random/?sacrifice"
               CardTitle="Philosophie"
               CardDescription="Être ou ne pas être, telle est la question ?"
               Button="Voir plus"
@@ -127,7 +125,6 @@ export default Accueil;
 
 // Composant pour afficher une seule carte de dilemme
 const SingleCard = ({
-  image,
   Button,
   CardDescription,
   CardTitle,
@@ -139,7 +136,7 @@ const SingleCard = ({
       {/* Conteneur de la carte */}
       <div className=" lg:hover:scale-110 mb-10 overflow-hidden rounded-lg bg-white shadow-1 duration-300 hover:shadow-3 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
         {/* Image de la carte */}
-        <img src={image} alt="" className="w-full max-h-72 object-cover min-h-72" />
+        <ApiImage className=" object-cover rounded-lg w-full" />
         {/* Contenu de la carte */}
         <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
           {/* Titre de la carte */}
